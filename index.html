@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+  Pictou County Mosque and Community Centre — Single‑file demo site (GitHub Pages ready)
+  ASSETS (create these files under /assets/ using your provided photos):
+    assets/hero_exterior.jpg           -> use the best exterior shot (e.g., 20250829_145701.jpg)
+    assets/exterior_steps.jpg          -> (e.g., 20250829_145618.jpg)
+    assets/prayer_hall_bright.jpg      -> (e.g., WhatsApp Image 2020-02-14 at 4.24.31 PM.jpeg)
+    assets/prayer_hall_evening.jpg     -> (e.g., 20250829_054437.jpg)
+    assets/mihrab.jpg                  -> (e.g., 2020-08-28.jpg)
+    assets/game_room_1.jpg             -> (e.g., 20250829_054339.jpg)
+    assets/game_room_2.jpg             -> (e.g., 20250829_054356.jpg)
+    assets/community_room.jpg          -> (e.g., 2019-08-12.jpg)
+  Replace filenames as needed but keep the same structure in <img src> below.
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pictou County Mosque and Community Centre – Trenton, Nova Scotia</title>
+  <meta name="description" content="Pictou County Mosque and Community Centre in Trenton, NS. Open for 5 daily prayers in congregation. Jumu'ah Fridays 1:30 PM. Programs for families, kids, and youth. Address: 25 Forge Street. New Muslims and visitors welcome." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --pc-blue:#1e90ff; --pc-blue-soft:#e6f3ff; --pc-green:#10b981; --pc-green-soft:#e9fbf4; --pc-navy:#0b2a3a; }
+    body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";}
+    .brand-gradient{background: linear-gradient(135deg, var(--pc-blue) 0%, var(--pc-green) 100%);} 
+    .btn{ display:inline-flex; align-items:center; gap:.5rem; border-radius:1rem; padding:.75rem 1.25rem; font-weight:700; box-shadow:0 1px 2px rgba(0,0,0,.05); transition:all .15s ease; }
+    .btn-primary{ background: var(--pc-green); color:#fff; }
+    .btn-primary:hover{ filter:brightness(.95); }
+    .btn-outline{ border:2px solid var(--pc-green); color:var(--pc-green); }
+    .btn-outline:hover{ background: var(--pc-green-soft); }
+  </style>
+  
+  <!-- SEO / Local discovery -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Mosque",
+    "name": "Pictou County Mosque and Community Centre",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "25 Forge Street",
+      "addressLocality": "Trenton",
+      "addressRegion": "NS",
+      "postalCode": "B0K 1X0",
+      "addressCountry": "CA"
+    },
+    "email": "pictoucountymosque@gmail.com",
+    "url": "https://YOUR-GITHUB-PAGES-URL/",
+    "openingHours": ["Mo-Su 05:00-23:00"],
+    "description": "Open for 5 daily prayers in congregation. Friday Jumu'ah at 1:30 PM. Family, youth, and Ramadan programs.",
+    "sameAs": ["https://chat.whatsapp.com/FL4dUVwUSWqLcnllRIRsec"]
+  }
+  </script>
+</head>
+<body class="bg-white text-slate-800">
+<!-- Top Bar -->
+<div class="w-full brand-gradient text-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+    <!-- Row 1: Logo + Name (always first on mobile) -->
+    <div class="flex items-center gap-3 min-w-0 order-1">
+      <img src="assets/IANS%20LOGO.png" alt="Islamic Association of Nova Scotia logo" class="h-7 w-auto sm:h-8 shrink-0 bg-white/95 rounded-full p-1" />
+      <p class="font-semibold leading-tight text-sm sm:text-base overflow-hidden text-ellipsis">
+        <span>Pictou County Mosque and Community Centre</span>
+        <span class="hidden sm:inline"> • 25 Forge Street, Trenton, Nova Scotia</span>
+        <span class="sm:hidden"> • Trenton, NS</span>
+      </p>
+    </div>
+
+    <!-- Row 2 on mobile: Email + Directions (kept on one line) -->
+<div class="flex items-center gap-3 text-xs sm:text-sm whitespace-nowrap order-2">
+  <a href="ar.html" class="underline decoration-white/50 hover:decoration-white" hreflang="ar" lang="ar" dir="rtl">العربية</a>
+  <span class="opacity-60">|</span>
+  <a href="mailto:pictoucountymosque@gmail.com" class="underline decoration-white/50 hover:decoration-white">pictoucountymosque@gmail.com</a>
+  <span class="opacity-60">|</span>
+  <a href="#directions" class="underline decoration-white/50 hover:decoration-white">Get Directions</a>
+</div>
+  </div>
+</div>
+
+
+
+  <!-- Header / Hero -->
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 opacity-25 bg-[url('assets/hero_exterior.jpg')] bg-cover bg-center"></div>
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+      <div class="flex flex-col-reverse lg:flex-row items-center gap-10">
+        <div class="w-full lg:w-1/2">
+          <h1 class="text-3xl sm:text-5xl font-black leading-tight text-[var(--pc-navy)]">Welcome to <span class="text-[var(--pc-green)]">Pictou County Mosque and Community Centre</span></h1>
+          <p class="mt-4 text-lg sm:text-xl text-slate-700">Open for <strong>five daily prayers</strong> in congregation. <strong>Jumu'ah</strong> every Friday at <strong>1:30 PM</strong>. All are welcome — community members, visitors, and people curious about Islam.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="mailto:pictoucountymosque@gmail.com" class="btn btn-primary">Contact Us</a>
+            <a href="#donate" class="btn btn-outline">Donate</a>
+            <a href="#programs" class="btn btn-outline">Programs</a>
+            <a href="https://chat.whatsapp.com/FL4dUVwUSWqLcnllRIRsec" target="_blank" rel="noopener" class="btn btn-outline">Request to join the WhatsApp Group</a>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div class="flex items-center justify-between">
+              <h2 class="text-xl font-bold">Today at a Glance</h2>
+              <span id="todayDate" class="text-sm text-slate-500"></span>
+            </div>
+            <div class="mt-4 grid grid-cols-2 gap-3 text-sm">
+              <div class="rounded-xl bg-[var(--pc-blue-soft)] p-4">
+                <p class="font-semibold text-[var(--pc-navy)]">Jumu'ah (Friday)</p>
+                <p>Khutbah: <strong>1:30 PM</strong></p>
+                <p class="text-slate-600">Every Friday</p>
+              </div>
+              <div class="rounded-xl bg-[var(--pc-green-soft)] p-4">
+                <p class="font-semibold text-[var(--pc-navy)]">Daily Prayers</p>
+                <p>Open for 5 prayers in congregation</p>
+                <p class="text-slate-600">Fajr • Dhuhr • Asr • Maghrib • Isha</p>
+              </div>
+            </div>
+            <p class="mt-4 text-xs text-slate-500">Athan times shown below. <strong>Iqāmah times</strong> are set locally and may vary; visitors please arrive a few minutes early.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Prayer Times Widget (Athan) -->
+  <section id="prayer-times" class="bg-slate-50">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-[var(--pc-navy)]">Prayer Times</h2>
+      <p class="mt-2 text-slate-700">Automatic <em>athan</em> times for Trenton, NS. Iqāmah posted on site.</p>
+<div class="mt-4 rounded-2xl overflow-hidden border border-slate-200 bg-white shadow-sm">
+<!-- My‑Masjid TimingScreen (shows Iqāmah) — full‑width, responsive height -->
+<iframe
+title="Prayer Times + Iqāmah — Pictou County Masjid"
+src="https://time.my-masjid.com/timingscreen/1ba5b984-df96-436e-b914-ca902ecdb1ec"
+class="block w-full h-[720px] sm:h-[780px] md:h-[920px] lg:h-[1000px] xl:h-[1080px]"
+style="border:0;outline:none;"
+loading="lazy"
+scrolling="no"
+referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</div>
+    </div>
+  </section>
+
+  <!-- Announcements -->
+  <section class="bg-[var(--pc-blue-soft)]">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+      <div class="grid gap-4 md:grid-cols-3">
+        <div class="rounded-2xl bg-white p-5 shadow-sm">
+          <p class="text-xs uppercase tracking-wide text-slate-500">Weekly</p>
+          <h3 class="mt-1 font-bold">Friday Food Sales</h3>
+          <p class="mt-1 text-sm text-slate-700">Support the mosque by grabbing a takeaway after Jumu'ah.</p>
+        </div>
+        <div class="rounded-2xl bg-white p-5 shadow-sm">
+          <p class="text-xs uppercase tracking-wide text-slate-500">Saturdays</p>
+          <h3 class="mt-1 font-bold">Kids' Qur'an Class + Crafts</h3>
+          <p class="mt-1 text-sm text-slate-700">Time <em>to be determined</em>. Join the WhatsApp group for updates.</p>
+        </div>
+        <div class="rounded-2xl bg-white p-5 shadow-sm">
+          <p class="text-xs uppercase tracking-wide text-slate-500">Ramadan</p>
+          <h3 class="mt-1 font-bold">Taraweeh + Weekly Iftar Potlucks</h3>
+          <p class="mt-1 text-sm text-slate-700">Details posted before Ramadan. All are welcome.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs & Community -->
+  <section id="programs" class="py-14 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-[var(--pc-navy)]">Community Programs</h2>
+        <p class="mt-2 text-slate-700">We serve ~100 Muslim families across Pictou County and surrounding areas.</p>
+      </div>
+      <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <article class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-bold">Pictou County Youth Club</h3>
+          <p class="mt-2 text-sm text-slate-700">Weekly activities, sports, and mentorship. Hosted at the mosque’s community room.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-bold">Monthly Potlucks</h3>
+          <p class="mt-2 text-sm text-slate-700">Bring a dish, meet neighbours, and strengthen community bonds.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-bold">Eid Prayers & Parties</h3>
+          <p class="mt-2 text-sm text-slate-700">Both Eid al‑Fitr and Eid al‑Adha are celebrated together as a community.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-bold">Open House / Visitors</h3>
+          <p class="mt-2 text-sm text-slate-700">New to Islam or visiting from out of town? You’re welcome. Reach out and we’ll assist.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-bold">Family & Kids</h3>
+          <p class="mt-2 text-sm text-slate-700">Kids’ Qur’an & crafts on Saturdays (time TBD). Parent volunteers appreciated.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-bold">Ramadan Activities</h3>
+          <p class="mt-2 text-sm text-slate-700">Taraweeh nightly and weekly iftar potlucks during Ramadan.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facilities -->
+  <section class="bg-[var(--pc-green-soft)] py-14 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-[var(--pc-navy)]">Facilities</h2>
+        <p class="mt-2 text-slate-700">Large community hall, kitchen, and dedicated areas for families.</p>
+      </div>
+      <ul class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 text-sm">
+        <li class="rounded-xl bg-white border border-slate-200 p-4 shadow-sm">Community room (large, multi‑use)</li>
+        <li class="rounded-xl bg-white border border-slate-200 p-4 shadow-sm">Kitchen (events & potlucks)</li>
+        <li class="rounded-xl bg-white border border-slate-200 p-4 shadow-sm">Men’s & Women’s wudu areas</li>
+        <li class="rounded-xl bg-white border border-slate-200 p-4 shadow-sm">Shower available</li>
+        <li class="rounded-xl bg-white border border-slate-200 p-4 shadow-sm">Game room: 2 foosball, billiards, air hockey</li>
+        <li class="rounded-xl bg-white border border-slate-200 p-4 shadow-sm">On‑site parking; wheelchair friendly</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Image gallery with your photos -->
+  <section class="py-14 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex items-end justify-between gap-4">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-[var(--pc-navy)]">Inside the Mosque</h2>
+          <p class="mt-2 text-slate-700">Photos of our prayer hall, community room, and facilities.</p>
+        </div>
+        <a href="#contact" class="text-sm font-semibold text-[var(--pc-green)]">Share a photo →</a>
+      </div>
+      <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-3">
+        <img src="assets/prayer_hall_bright.jpg" alt="Prayer hall (daylight)" class="h-48 w-full object-cover rounded-xl border border-slate-200"/>
+        <img src="assets/prayer_hall_evening.jpg" alt="Prayer hall (evening)" class="h-48 w-full object-cover rounded-xl border border-slate-200"/>
+        <img src="assets/mihrab.jpg" alt="Mihrab area" class="h-48 w-full object-cover rounded-xl border border-slate-200"/>
+        <img src="assets/community_room.jpg" alt="Community room" class="h-48 w-full object-cover rounded-xl border border-slate-200"/>
+        <img src="assets/game_room_1.jpg" alt="Game room view 1" class="h-48 w-full object-cover rounded-xl border border-slate-200"/>
+        <img src="assets/game_room_2.jpg" alt="Game room view 2" class="h-48 w-full object-cover rounded-xl border border-slate-200"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate -->
+  <section id="donate" class="bg-[var(--pc-blue-soft)] py-14 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-[var(--pc-navy)]">Donate & Support</h2>
+        <p class="mt-2 text-slate-700">Your support keeps the mosque open and programs running.</p>
+      </div>
+      <div class="mt-6 grid gap-6 sm:grid-cols-2">
+        <div class="rounded-2xl bg-white p-6 border border-slate-200 shadow-sm">
+          <h3 class="font-bold">E‑Transfer (Preferred)</h3>
+          <p class="mt-1 text-sm">Send to <a class="font-semibold underline" href="mailto:pictoucountymosque@gmail.com">pictoucountymosque@gmail.com</a>. Add a note (<em>donation / zakat / program</em>).</p>
+        </div>
+        <div class="rounded-2xl bg-white p-6 border border-slate-200 shadow-sm">
+          <h3 class="font-bold">Card (Square)</h3>
+          <p class="mt-1 text-sm">Prefer in‑person, but an online option is available.</p>
+          <a class="btn btn-outline mt-3" target="_blank" rel="noopener" href="https://square.link/u/DL7hmckB">Pay via Square</a>
+        </div>
+      </div>
+      <div class="mt-6">
+        <a class="btn btn-outline" target="_blank" rel="noopener" href="https://chat.whatsapp.com/FL4dUVwUSWqLcnllRIRsec">Join the Community WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit / Map -->
+  <section id="directions" class="py-14 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid gap-8 lg:grid-cols-2">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-[var(--pc-navy)]">Visit Us</h2>
+          <p class="mt-2 text-slate-700">Address: <strong>25 Forge Street, Trenton, NS</strong></p>
+          <ul class="mt-4 space-y-2 text-sm">
+            <li>• Open for five daily prayers with congregation</li>
+            <li>• Friday Jumu'ah khutbah at <strong>1:30 PM</strong></li>
+            <li>• Visitors are welcome — please dress modestly and remove shoes upon entry</li>
+          </ul>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=25+Forge+Street%2C+Trenton%2C+NS">Open in Google Maps</a>
+            <a class="btn btn-outline" href="#contact">Ask a question</a>
+          </div>
+        </div>
+        <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm min-h-[320px]">
+          <iframe title="Map to Pictou County Mosque and Community Centre" class="w-full h-[320px] md:h-full" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=25%20Forge%20St%2C%20Trenton%2C%20NS%20B0K%201X0&output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-slate-50 py-14 sm:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-[var(--pc-navy)]">Contact</h2>
+        <p class="mt-2 text-slate-700">For general inquiries, school visits, or to learn more, email us. A volunteer will reply as soon as possible.</p>
+      </div>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="mailto:pictoucountymosque@gmail.com" class="btn btn-primary">Email pictoucountymosque@gmail.com</a>
+        <a class="btn btn-outline" target="_blank" rel="noopener" href="https://chat.whatsapp.com/FL4dUVwUSWqLcnllRIRsec">Request to join WhatsApp Group</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 text-sm">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+        <p class="font-semibold">Pictou County Mosque and Community Centre</p>
+        <p>25 Forge Street, Trenton, Nova Scotia • <a class="underline" href="mailto:pictoucountymosque@gmail.com">pictoucountymosque@gmail.com</a></p>
+      </div>
+      <p class="mt-2 text-xs text-slate-500">Established 2018 (community‑owned building). © <span id="year"></span> Pictou County Mosque and Community Centre.</p>
+      <div class="mt-4 text-xs text-slate-500">Website draft for community review. Some features (e.g., iqāmah times) will be added soon.</div>
+    </div>
+  </footer>
+
+  <script>
+    // Set today string and year
+    const d = new Date();
+    const fmt = d.toLocaleDateString(undefined, { weekday:'long', year:'numeric', month:'long', day:'numeric' });
+    document.getElementById('todayDate').textContent = fmt;
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
